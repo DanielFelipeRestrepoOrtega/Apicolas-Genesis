@@ -1,6 +1,7 @@
 APICOLAS GENESIS
 
 Descripción del Proyecto
+
 Apicolas Genesis es una página web creada para dar visibilidad a la empresa y sus productos apícolas. El objetivo principal es conectar a los clientes con la empresa y ofrecer información sobre sus productos de manera clara y atractiva.
 
 Características Principales
