@@ -17,3 +17,9 @@ header{
     background-color: var(--color-oro);
     color:var(--color-negro)
 }
+header a{
+    text-decoration: none;
+    color: var(--color-negro);
+    font-weight: 800;
+    text-transform: uppercase;
+}
