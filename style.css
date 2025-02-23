@@ -3,3 +3,12 @@ body {
     margin: 0;
     padding: 0;
 }
+h1{
+    color: #853c00;
+    font-weight: 850;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header{
+    background:radial-gradient(circle,#ffcea6, #fff0c2);
+}
