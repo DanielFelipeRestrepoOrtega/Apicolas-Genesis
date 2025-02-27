@@ -27,9 +27,11 @@ header img{
 
 .ilderflotante{
     display: flex;
+    justify-content: center;
+    margin-left: 90rem;
+    margin-right: 30rem;
     position: relative;
-    background-color: #853c00;
-    direction: rtl;
+    margin-bottom: 90px;  
 }
 .nav{
     background:linear-gradient(to top, #ff984f, #f9d418);
