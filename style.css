@@ -28,6 +28,8 @@ header img{
 .ilderflotante{
     display: flex;
     position: relative;
+    background-color: #853c00;
+    direction: rtl;
 }
 .nav{
     background:linear-gradient(to top, #ff984f, #f9d418);
