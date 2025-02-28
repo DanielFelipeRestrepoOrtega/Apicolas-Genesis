@@ -11,7 +11,18 @@ h1{
     text-align: center;
     margin: 0 !important;
     padding-top:20px ;
+
 }
+@media (max-width: 600px) {
+    h1{
+        font-size:300% !important;
+    }
+  }
+  
+@media (min-width: 601px) and (max-width: 1024px) {
+    .h1{
+        font-size: 700% !important;
+    } }
 header{
     background: radial-gradient(circle at center, #fef486, #ffcba6);
     height: 600px;
@@ -24,14 +35,14 @@ header img{
     display: flex;
     justify-content: center;
 }
+.ilderflotante {
+    position: absolute;
+    right: 5%; /* Posiciona desde la derecha */
+    top: 45%; /* Posiciona desde la parte superior */
+}
 
-.ilderflotante{
-    display: flex;
-    justify-content: center;
-    margin-left: 90rem;
-    margin-right: 30rem;
-    position: relative;
-    margin-bottom: 90px;  
+.ilderflotante img {
+    width: 450px;
 }
 .nav{
     background:linear-gradient(to top, #ff984f, #f9d418);
@@ -47,4 +58,10 @@ nav a{
     text-decoration: none;
     font-size: 2.5rem;  
     font-weight: 700;  
+}
+.carruselcontainer{
+    background:linear-gradient(to top, #ff984f, #ffdb59);
+}
+.carruselcontainer > h1{
+    color:white;
 }
