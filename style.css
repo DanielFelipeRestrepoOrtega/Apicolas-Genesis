@@ -15,7 +15,29 @@ h1{
 }
 @media (max-width: 600px) {
     h1{
-        font-size:300% !important;
+        font-size:300% !important; 
+    }
+    span{
+        margin-left: 9rem;
+    }
+    header{
+        display: flexbox;
+    }
+    .logoapicolas{
+        position: absolute;
+        top: 58px;
+        left:80px ;
+    }
+    .logoapicolas > img{
+        width: max(6rem, 18vw);
+        aspect-ratio: 20 / 20;
+    }
+    .nav{
+        display: block !important;
+        text-align: center;
+    }
+    .nav > a{
+        margin: 10px 30px;
     }
   }
   
