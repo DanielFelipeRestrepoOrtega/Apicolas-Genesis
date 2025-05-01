@@ -81,3 +81,25 @@ nav a{
     font-size: 2.5rem;  
     font-weight: 700;  
 }
+.carruselcontainer{
+    aspect-ratio: 10/16;
+    width:600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    margin: 0 auto;
+    
+}
+.carruselcontainer img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 10px;
+    scroll-snap-align: center;
+}
+.fondocarrusel{
+    background:linear-gradient(to top, #ff984f, #f9d418);
+}
