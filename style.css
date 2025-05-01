@@ -81,9 +81,3 @@ nav a{
     font-size: 2.5rem;  
     font-weight: 700;  
 }
-.carruselcontainer{
-    background:linear-gradient(to top, #ff984f, #ffdb59);
-}
-.carruselcontainer > h1{
-    color:white;
-}
