@@ -112,6 +112,7 @@ nav a{
 }
 .maincontact{
     display: flex;
+    margin-bottom: -290px;
     gap: 1px;
 }
 .containerproducto{
@@ -146,9 +147,66 @@ nav a{
 }
 
 footer{
+     display: block;
      margin-top: 50px;
      background:linear-gradient(to top, #ff984f, #f9d418);
-     padding: 90px;
-      
+     padding: 90px;  
+     justify-content: center; 
 }
 
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.direccion{
+    margin-top:30px;
+    text-align: center;
+}
+.derechos {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: #853c00;
+    opacity: 0.8;
+}
+
+.carousel {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 80px;
+  background:linear-gradient(to top, #ff984f, #f9d418);
+  border-radius: 20px;
+}
+
+.carousel-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+button.prev, button.next {
+  position: absolute;
+  bottom: -300px;
+  margin:30px;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 30px;
+  cursor: pointer;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
