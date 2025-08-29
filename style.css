@@ -23,19 +23,22 @@ h1{
     .logoapicolas{
         position: absolute;
         top: 58px;
-        left:6% ;
+        left: 6%;
     }
     .logoapicolas > img{
         width: max(6rem, 18vw);
         aspect-ratio: 20 / 20;
     }
-    /* .nav{
-        display: block !important;
-        text-align: center;
+    .nav{
+        display: flex;
+        flex-direction: column;    /* Apila los enlaces verticalmente */
+        align-items: center;       /* Centra los enlaces */
+        gap: 0.3rem  !important ;              /* Espacio entre enlaces */
+                    /* Margen arriba y abajo */
+        background: none;          /* Opcional: quita el fondo si no lo quieres en móvil */
+        padding: 0;  
     }
-    .nav > a{
-        margin: 10px 30px;
-    } */
+   
   }
   
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -43,18 +46,7 @@ h1{
         font-size: 700% !important;
     } }
 
-
-
-
-@media (max-width:768px){
-
-
-
-
-    
-}
 header{
-    /* background: radial-gradient(circle at center, #fef486, #ffcba6); */
     height: 600px;
     display: flexbox;
 }
