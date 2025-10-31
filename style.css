@@ -170,7 +170,7 @@ footer{
   height: 500px;
   overflow: hidden;
   margin-top: 80px;
-  background:linear-gradient(to top, #ff984f, #f9d418);
+  background:linear-gradient(to top, #cca188, #f9d418);
   border-radius: 20px;
 }
 
@@ -202,3 +202,50 @@ button.prev, button.next {
 
 button.prev { left: 10px; }
 button.next { right: 10px; }
+
+/* Ajustes responsivos para botones del carrusel */
+button.prev,
+button.next {
+  z-index: 10; /* encima de las imágenes */
+}
+
+/* Móvil: ubica los botones centrados verticalmente y más pequeños */
+@media (max-width: 600px) {
+  .carousel {
+    height: 320px; /* opcional: reduce altura en móvil */
+  }
+
+  button.prev,
+  button.next {
+    position: absolute;
+    top:109%;
+    bottom: auto;
+    transform: translateY(-50%);
+    padding: 8px;
+    width:44px;
+    height: 44px;
+    font-size: 1.1rem;
+    background-color: rgba(0,0,0,0.45);
+    color: #fff;
+    border-radius: 8px;
+  }
+
+  button.prev { left: 8px; }
+  button.next { right: 8px; }
+}
+
+/* Tablet: posición lateral pero centrada verticalmente */
+@media (min-width: 601px) and (max-width: 1024px) {
+  button.prev,
+  button.next {
+    position: absolute;
+    top:50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    padding: 14px;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0,0.5);
+  }
+  button.prev { left: 12px; }
+  button.next { right: 12px; }
+}
